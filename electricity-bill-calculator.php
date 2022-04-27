@@ -1,9 +1,9 @@
 <div>
-		<h2 align="center">Electricity Bill Calculator</h2>
-	</div>
+	<h2 align="center">Electricity Bill Calculator</h2>
+</div>
 <div align="center">
 <?php	
-	
+	$fee = 0;
 	if (isset($_POST['submit_units'])) {
 		$units = $_POST['units'];
 		if (!empty($units)) {
