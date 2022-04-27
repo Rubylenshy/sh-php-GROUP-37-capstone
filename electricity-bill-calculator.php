@@ -4,11 +4,12 @@
 <div align="center">
 <?php	
 	$fee = 0;
+	$units = 0;
 	if (isset($_POST['submit_units'])) {
 		$units = $_POST['units'];
 		if (!empty($units)) {
 		 	$fee = calc_bill($units);
-		 } 
+		 } else{echo "Error: Please input a value".'</br>'.'</br>';}
 	}
 
 	function calc_bill($units)
