@@ -52,7 +52,7 @@
 			echo "How many units of current would you like to purchase?".'<br/>'.'<br/>';
 		?>
 		<input type="number" id="units" name="units" placeholder="Enter number of units?" />
-		<input type="submit" id="submit_units" name="submit_units" value="Submit"/>
+		<input type="submit" id="submit_units" name="submit_units" value="Calculate"/>
 	</form>
 
 	<div>
